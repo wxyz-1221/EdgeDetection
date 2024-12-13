@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VxMO9Lo2Kc4=",
+  "success": true,
+  "projectFilePath": "D:\\C#Projects\\EdgeDetection\\EdgeDetection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\accord\\3.8.0\\accord.3.8.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\accord.imaging\\3.8.0\\accord.imaging.3.8.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\accord.math\\3.8.0\\accord.math.3.8.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\accord.statistics\\3.8.0\\accord.statistics.3.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}
