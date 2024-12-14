@@ -14,7 +14,7 @@ How to Run
 
 1. Clone the Repository
 
-git clone <repository_url>
+Clone the repository
 cd <repository_folder>
 
 2. Navigate to the src Folder and Restore Dependencies
