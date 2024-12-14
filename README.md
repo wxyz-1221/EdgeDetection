@@ -15,15 +15,13 @@ A C# console application that performs edge detection on a grayscale image using
    dotnet restore
    dotnet build
 
-
 3. Run the application:
 ```bash
 dotnet run --project ./src/EdgeDetection.csproj input.png output.png sobel
 or
 dotnet run --project ./src/EdgeDetection.csproj input.png output.png prewitt
 
-
-4. Testing
+4. Testing:
 Navigate to `tests` folder:
 ```bash
 dotnet test
