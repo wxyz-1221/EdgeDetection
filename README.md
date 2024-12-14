@@ -21,7 +21,7 @@ dotnet run --project ./src/EdgeDetection.csproj input.png output.png sobel
 or
 dotnet run --project ./src/EdgeDetection.csproj input.png output.png prewitt
 
-4. Testing:
+## Testing
 Navigate to `tests` folder:
 ```bash
 dotnet test
