@@ -1,16 +1,15 @@
-EdgeDetection
+## EdgeDetection
 
-Description
+## Description
 
 EdgeDetection is a C# console application that performs edge detection on grayscale images using either the Sobel or Prewitt operators. The user can specify which operator to use via command-line arguments.
 
-Requirements
+## Requirements
 
 .NET 8.0 or newer
 
-Ensure System.Drawing.Common is installed (this will be automatically handled by dotnet restore).
 
-How to Run
+## How to Run
 
 1. Clone the Repository
 
@@ -41,7 +40,8 @@ Replace input.png with the path to your input grayscale image.
 
 Replace output.png with the desired path for the processed image.
 
-Testing
+
+## Testing
 
 Run Unit Tests
 
@@ -49,32 +49,6 @@ Navigate to the tests folder and execute the tests:
 
 cd tests
 dotnet test
-
-Folder Structure
-
-EdgeDetection/
-├─ src/
-│  ├─ EdgeDetection.csproj
-│  ├─ Program.cs
-│  ├─ Operators/
-│  │  ├─ IEdgeDetector.cs
-│  │  ├─ SobelEdgeDetector.cs
-│  │  ├─ PrewittEdgeDetector.cs
-│  ├─ Services/
-│  │  ├─ EdgeDetectionService.cs
-│  ├─ Utils/
-│  │  ├─ ImageLoader.cs
-│  │  ├─ ImageSaver.cs
-│
-├─ tests/
-│  ├─ EdgeDetection.Tests.csproj
-│  ├─ OperatorSelectionTests.cs
-│  ├─ EdgeDetectionTests.cs
-│
-├─ UML/
-│  ├─ diagram.drawio
-│
-├─ README.md
 
 
 
