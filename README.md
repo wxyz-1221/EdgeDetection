@@ -48,6 +48,7 @@ Run Unit Tests
 Navigate to the tests folder and execute the tests:
 
 cd tests
+
 dotnet test
 
 
