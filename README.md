@@ -13,7 +13,8 @@ EdgeDetection is a C# console application that performs edge detection on graysc
 
 1. Clone the Repository
 
-Clone the repository
+git clone <repository_url>
+
 cd <repository_folder>
 
 2. Navigate to the src Folder and Restore Dependencies
