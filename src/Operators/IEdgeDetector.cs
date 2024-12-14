@@ -2,6 +2,6 @@
 {
     public interface IEdgeDetector
     {
-        byte[] Apply(byte[] input, int width, int height);
+        byte[] Apply(byte[] input, int width, int height); 
     }
 }
