@@ -23,3 +23,4 @@ namespace EdgeDetection.Tests
         }
     }
 }
+

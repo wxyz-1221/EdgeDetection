@@ -38,6 +38,7 @@ namespace EdgeDetection.Tests
                 100,150,200
             };
 
+
             var output = service.DetectEdges(input, 3, 3);
             Assert.IsNotNull(output);
             Assert.AreEqual(input.Length, output.Length);
