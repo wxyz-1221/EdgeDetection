@@ -22,6 +22,7 @@ namespace EdgeDetection.Utils
                     }
                 }
 
+
                 return (data, width, height);
             }
         }
