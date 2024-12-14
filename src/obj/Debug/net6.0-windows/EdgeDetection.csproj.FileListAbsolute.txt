@@ -1,0 +1,6 @@
+D:\C#Projects\EdgeDetection\src\obj\Debug\net6.0-windows\EdgeDetection.csproj.AssemblyReference.cache
+D:\C#Projects\EdgeDetection\src\obj\Debug\net6.0-windows\EdgeDetection.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#Projects\EdgeDetection\src\obj\Debug\net6.0-windows\EdgeDetection.AssemblyInfoInputs.cache
+D:\C#Projects\EdgeDetection\src\obj\Debug\net6.0-windows\EdgeDetection.AssemblyInfo.cs
+D:\C#Projects\EdgeDetection\src\obj\Debug\net6.0-windows\EdgeDetection.csproj.CoreCompileInputs.cache
+D:\C#Projects\EdgeDetection\src\obj\Debug\net6.0-windows\EdgeDetection.sourcelink.json

@@ -20,3 +20,4 @@ D:\C#Projects\EdgeDetection\obj\Debug\net9.0\refint\EdgeDetection.dll
 D:\C#Projects\EdgeDetection\obj\Debug\net9.0\EdgeDetection.pdb
 D:\C#Projects\EdgeDetection\obj\Debug\net9.0\EdgeDetection.genruntimeconfig.cache
 D:\C#Projects\EdgeDetection\obj\Debug\net9.0\ref\EdgeDetection.dll
+D:\C#Projects\EdgeDetection\obj\Debug\net9.0\EdgeDetection.sourcelink.json
