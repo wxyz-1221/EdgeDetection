@@ -8,7 +8,7 @@ namespace EdgeDetection.Operators
             {-1, 0, 1},
             {-2, 0, 2},
             {-1, 0, 1}
-        };
+        }; 
 
         private int[,] Gy = new int[,] {
             {-1,-2,-1},
