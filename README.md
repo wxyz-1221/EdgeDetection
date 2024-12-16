@@ -40,15 +40,15 @@ dotnet run --project EdgeDetection.csproj ./input/Phase.png ./output/Phase_sobel
 
 Using the Prewitt Operator:
 ```sh
-dotnet run --project EdgeDetection.csproj ./input/Phase.png ./output/Phase_sobel.png prewitt
+dotnet run --project EdgeDetection.csproj ./input/Phase.png ./output/Phase_prewitt.png prewitt
 ```
 
 
 Notes:
 
-Replace ./input/phase.png with the path to your input grayscale image.
+Replace ./input/Phase.png with the path to your input grayscale image.
 
-Replace ./output/phase_sobel.png with the desired path for the processed image.
+Replace ./output/Phase_sobel.png with the desired path for the processed image.
 
 ## Testing
 
