@@ -53,7 +53,7 @@ Replace ../output/Phase_sobel.png with the desired path for the processed image.
 
 Navigate to the tests folder and execute:
 ```sh
-cd ../tests
+cd tests
 dotnet test
 ```
 
