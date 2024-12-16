@@ -42,7 +42,6 @@ namespace EdgeDetection.Operators
                     output[y * width + x] = (byte)g;
                 }
             }
-
             return output;
         }
     }
