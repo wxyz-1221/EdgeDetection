@@ -13,7 +13,6 @@ namespace EdgeDetection.Tests
             Assert.IsNotNull(detector);
             Assert.IsInstanceOfType(detector, typeof(SobelEdgeDetector));
         }
-
         [TestMethod]
         public void TestPrewittOperatorInstance()
         {
