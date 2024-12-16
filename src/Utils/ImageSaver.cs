@@ -16,7 +16,6 @@ namespace EdgeDetection.Utils
                         bmp.SetPixel(x, y, Color.FromArgb(val, val, val));
                     }
                 }
-
                 bmp.Save(outputPath);
             }
         }
