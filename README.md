@@ -16,7 +16,6 @@ This tool is helpful for image processing tasks such as feature extraction, imag
 - .NET 8.0 or newer
 - A valid path to a grayscale input image.
 
-
 ## How to Run
 
 1. **Clone the Repository**
@@ -36,12 +35,12 @@ dotnet build
 
 Using the Sobel Operator:
 ```sh
-dotnet run --project EdgeDetection.csproj ./input/phase.png ./output/phase_sobel.png sobel
+dotnet run --project EdgeDetection.csproj ./input/Phase.png ./output/Phase_sobel.png sobel
 ```
 
 Using the Prewitt Operator:
 ```sh
-dotnet run --project EdgeDetection.csproj ./input/phase.png ./output/phase_sobel.png prewitt
+dotnet run --project EdgeDetection.csproj ./input/Phase.png ./output/Phase_sobel.png prewitt
 ```
 
 
@@ -58,6 +57,7 @@ Navigate to the tests folder and execute:
 cd tests
 dotnet test
 ```
+
 
 
 
