@@ -46,15 +46,15 @@ dotnet run --project EdgeDetection.csproj ../input/Phase.png ../output/Phase_pre
 
 Notes:
 
-Replace ./input/Phase.png with the path to your input grayscale image.
+Replace ../input/Phase.png with the path to your input grayscale image.
 
-Replace ./output/Phase_sobel.png with the desired path for the processed image.
+Replace ../output/Phase_sobel.png with the desired path for the processed image.
 
 ## Testing
 
 Navigate to the tests folder and execute:
 ```sh
-cd tests
+cd ../tests
 dotnet test
 ```
 

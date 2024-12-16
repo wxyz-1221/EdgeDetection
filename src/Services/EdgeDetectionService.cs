@@ -11,7 +11,6 @@ namespace EdgeDetection.Services
             _edgeDetector = edgeDetector;
         }
 
-
         public byte[] DetectEdges(byte[] imageData, int width, int height)
         {
             return _edgeDetector.Apply(imageData, width, height);
