@@ -2,6 +2,7 @@
 
 A C# console application that applies edge detection on grayscale images using Sobel or Prewitt operators. 
 
+
 ## Description
 
 EdgeDetection is a C# console application that applies edge detection filters to grayscale images.
