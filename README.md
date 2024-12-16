@@ -43,7 +43,6 @@ Using the Prewitt Operator:
 dotnet run --project EdgeDetection.csproj ../input/Phase.png ../output/Phase_prewitt.png prewitt
 ```
 
-
 Notes:
 
 Replace ../input/Phase.png with the path to your input grayscale image.
