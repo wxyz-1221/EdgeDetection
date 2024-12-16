@@ -35,12 +35,12 @@ dotnet build
 
 Using the Sobel Operator:
 ```sh
-dotnet run --project EdgeDetection.csproj ./input/Phase.png ./output/Phase_sobel.png sobel
+dotnet run --project EdgeDetection.csproj ../input/Phase.png ../output/Phase_sobel.png sobel
 ```
 
 Using the Prewitt Operator:
 ```sh
-dotnet run --project EdgeDetection.csproj ./input/Phase.png ./output/Phase_prewitt.png prewitt
+dotnet run --project EdgeDetection.csproj ../input/Phase.png ../output/Phase_prewitt.png prewitt
 ```
 
 
