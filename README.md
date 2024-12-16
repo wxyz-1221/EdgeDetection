@@ -1,56 +1,59 @@
-## EdgeDetection
+# EdgeDetection
+
+A C# console application that applies edge detection on grayscale images using Sobel or Prewitt operators. 
 
 ## Description
 
-EdgeDetection is a C# console application that performs edge detection on grayscale images using either the Sobel or Prewitt operators. The user can specify which operator to use via command-line arguments.
+EdgeDetection is a C# console application that applies edge detection filters to grayscale images.
+It supports two popular gradient-based operators:
+- **Sobel**: Detects edges by calculating the gradient in both the x and y directions.
+- **Prewitt**: Similar to Sobel, but uses different convolution kernels for edge detection.
+
+This tool is helpful for image processing tasks such as feature extraction, image segmentation, and computer vision applications.
 
 ## Requirements
 
-.NET 8.0 or newer
+- .NET 8.0 or newer
+- A valid path to a grayscale input image.
 
 
 ## How to Run
 
-1. Clone the Repository
-
+1. **Clone the Repository**
+```sh
 git clone <repository_url>
-
 cd <repository_folder>
 
-2. Navigate to the src Folder and Restore Dependencies
-
+2. **Navigate to the src folder and build**
+```sh
 cd src
 dotnet restore
 dotnet build
 
-3. Run the Application
+3. **Run the Application**
 
-You can run the application with the following commands:
+Using the Sobel Operator:
+```sh
+dotnet run --project EdgeDetection.csproj ./input/phase.png ./output/phase_sobel.png sobel
 
-Using the Sobel Operator
-
-dotnet run --project ./src/EdgeDetection.csproj input.png output.png sobel
-
-Using the Prewitt Operator
-
-dotnet run --project ./src/EdgeDetection.csproj input.png output.png prewitt
+Using the Prewitt Operator:
+```sh
+dotnet run --project EdgeDetection.csproj ./input/phase.png ./output/phase_sobel.png prewitt
 
 Notes:
 
-Replace input.png with the path to your input grayscale image.
+Replace ./input/phase.png with the path to your input grayscale image.
 
-Replace output.png with the desired path for the processed image.
+Replace ./output/phase_sobel.png with the desired path for the processed image.
 
 
 ## Testing
 
-Run Unit Tests
-
-Navigate to the tests folder and execute the tests:
-
+Navigate to the tests folder and execute:
+```sh
 cd tests
-
 dotnet test
+
 
 
 
