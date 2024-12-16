@@ -16,4 +16,5 @@ namespace EdgeDetection.Services
             return _edgeDetector.Apply(imageData, width, height);
         }
     }
+
 }
