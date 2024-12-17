@@ -21,7 +21,7 @@ This tool is helpful for image processing tasks such as feature extraction, imag
 
 1. **Clone the Repository**
 ```sh
-git clone <repository_url>
+git clone -b master <repository_url>
 cd <repository_folder>
 ```
 
